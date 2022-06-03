@@ -1,0 +1,49 @@
+﻿<Window x:Class="ProgramnoeReshenieDliaBithnesa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProgramnoeReshenieDliaBithnesa"
+        mc:Ignorable="d"
+        Title="Агенты" Height="700" Width="900">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Назад" HorizontalAlignment="Center" Grid.Row="9" VerticalAlignment="Center" Width="150" Height="30" FontSize="20"/>
+        <Button Content="Редактировать" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="9" VerticalAlignment="Center" Height="30" Width="150" FontSize="20"/>
+        <Label Content="Наименование компании" HorizontalAlignment="Left" Margin="190,23,0,0" VerticalAlignment="Top"  Height="36" FontSize="20" Width="256"/>
+        <Label Content="Тип агента" HorizontalAlignment="Left" Margin="322,10,0,0" Grid.Row="1" VerticalAlignment="Top"  Height="45" FontSize="20" Width="124"/>
+        <Label Content="Юридический адрес" HorizontalAlignment="Left" Margin="228,10,0,0" Grid.Row="2" VerticalAlignment="Top"  Height="42" FontSize="20" Width="218"/>
+        <Label Content="ИНН" HorizontalAlignment="Left" Margin="384,29,0,0" Grid.Row="3" VerticalAlignment="Top"  Height="30" FontSize="20"/>
+        <Label Content="КПП" HorizontalAlignment="Left" Margin="386,27,0,0" Grid.Row="4" VerticalAlignment="Top"  Height="30" FontSize="20"/>
+        <Label Content="Контактные данные агента" HorizontalAlignment="Left" Margin="174,10,0,0" Grid.Row="6" VerticalAlignment="Top"  Height="46" FontSize="20" Width="272"/>
+        <Label Content="ФИО директора" HorizontalAlignment="Left" Margin="278,10,0,0" Grid.Row="5" VerticalAlignment="Top"  Height="43" FontSize="20" Width="168"/>
+        <Label Content="Приорететность в поставках" HorizontalAlignment="Left" Margin="174,10,0,0" Grid.Row="7" VerticalAlignment="Top"  Height="45" FontSize="20" Width="272"/>
+        <Label Content="История реализации" HorizontalAlignment="Left" Margin="228,10,0,0" Grid.Row="8" VerticalAlignment="Top"  Height="47" FontSize="20" Width="218"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="25,27,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="250" FontSize="20"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="25,25,0,12" Grid.Row="1" TextWrapping="Wrap" Text=" " VerticalAlignment="Center" Width="250" FontSize="20"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="25,14,0,23" Grid.Row="2" TextWrapping="Wrap" Text=" " VerticalAlignment="Center" Width="250" FontSize="20"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="25,27,0,10" Grid.Row="3" TextWrapping="Wrap" Text=" " VerticalAlignment="Center" Width="250" FontSize="20"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="25,27,0,10" Grid.Row="4" TextWrapping="Wrap" Text=" " VerticalAlignment="Center" Width="250" FontSize="20"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="25,23,0,14" Grid.Row="5" TextWrapping="Wrap" Text=" " VerticalAlignment="Center" Width="250" FontSize="20"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="25,14,0,23" Grid.Row="6" TextWrapping="Wrap" Text=" " VerticalAlignment="Center" Width="250" FontSize="20"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="25,14,0,23" Grid.Row="7" TextWrapping="Wrap" Text=" " VerticalAlignment="Center" Width="250" FontSize="20"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="25,14,0,23" Grid.Row="8" TextWrapping="Wrap" Text=" " VerticalAlignment="Center" Width="250" FontSize="20"/>
+
+    </Grid>
+</Window>
